@@ -12,5 +12,14 @@
     <orderEntry type="library" name="com.jfoenix:jfoenix:8.0.10" level="project" />
     <orderEntry type="library" name="org.codehaus.jackson:jackson-mapper-asl:1.8.10" level="project" />
     <orderEntry type="library" name="javafx-base-17.0.2-linux" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
