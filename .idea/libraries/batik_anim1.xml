@@ -114,6 +114,7 @@
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/src/lk/ijse/hotel/lib/libthrift-0.9.0-snapshot.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/lk/ijse/hotel/lib/javacup.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lk/ijse/hotel/lib/hibernate-annotations.jar!/" />
     </SOURCES>
   </library>
 </component>
