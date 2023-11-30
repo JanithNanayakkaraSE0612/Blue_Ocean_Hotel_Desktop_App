@@ -13,6 +13,7 @@ public class DAOFactory {
     public SuperDAO getDAOType(lk.ijse.hotel.dao.DAOType daoType){
         switch (daoType){
             case USER:return  new UserDAOImpl();
+            case CUSTOMER:
             default:
                 return null;
         }

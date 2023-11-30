@@ -8,7 +8,7 @@ import org.hibernate.Session;
 public class UserDAOImpl implements UserDAO {
     @Override
     public boolean save(User entity) {
-        Session session = FactoryConfiguration.
+       return false;
     }
 
     @Override

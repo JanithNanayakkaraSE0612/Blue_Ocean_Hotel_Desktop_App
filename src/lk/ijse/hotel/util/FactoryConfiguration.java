@@ -8,8 +8,6 @@ public class FactoryConfiguration {
     private SessionFactory sessionFactory;
 
     private FactoryConfiguration() {
-        sessionFactory = new Configuration()
-                .mergeProperties(Utility.getProperties())
-                .addA
+
     }
 }
