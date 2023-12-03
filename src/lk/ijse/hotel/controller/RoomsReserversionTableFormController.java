@@ -12,7 +12,6 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-import lk.ijse.hotel.db.DatabaseReserve;
 import lk.ijse.hotel.model.Reserve;
 import lk.ijse.hotel.view.tm.ReserveTm;
 
