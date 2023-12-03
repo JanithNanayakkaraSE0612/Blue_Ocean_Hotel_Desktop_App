@@ -13,7 +13,7 @@ public class FactoryConfiguration {
             sessionFactory = new Configuration()
                     .mergeProperties(Utility.getProperties())
                     .addAnnotatedClass(User.class)
-                    .
+                    .addAnnotatedClass()
 
     }
     public static FactoryConfiguration getInstance() {
