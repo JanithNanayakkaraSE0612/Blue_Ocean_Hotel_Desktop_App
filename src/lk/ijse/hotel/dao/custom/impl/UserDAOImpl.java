@@ -8,19 +8,7 @@ import org.hibernate.Transaction;
 public class UserDAOImpl implements UserDAO {
     @Override
     public boolean save(User entity) {
-       Session session = FactoryConfiguration.getInstance().getSession();
-        Transaction transaction = session.beginTransaction();
-        try {
-            session.save(entity);
-            transaction.commit();
-            session.close();
-            return true;
-        } catch (Exception e) {
-            transaction.rollback();
-            session.close();
-            e.printStackTrace();
-            return false;
-        }
+      return false;
     }
 
     @Override
