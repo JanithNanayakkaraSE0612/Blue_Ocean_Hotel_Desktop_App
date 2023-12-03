@@ -1,4 +1,4 @@
 package lk.ijse.hotel.entity;
 
-public class Student {
+public class Customer {
 }

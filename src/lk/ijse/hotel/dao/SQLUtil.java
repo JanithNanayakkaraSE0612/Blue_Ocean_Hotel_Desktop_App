@@ -1,7 +1,13 @@
 package lk.ijse.hotel.dao;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
+
 public interface SQLUtil <T> extends SuperDAO{
-    boolean save(T entity);
-    boolean update(T entity);
-    boolean delete(T entity);
+    ArrayList<T> getAll() throws SQLException,ClassNotFoundException;
+    boolean save(T entity) throws SQLException,ClassNotFoundException;
+    boolean update(T entity)throws SQLException,ClassNotFoundException;
+    boolean delete(T entity)throws SQLException,ClassNotFoundException;
+    T search(String id)throws SQLException,ClassNotFoundException;
+    String generateNewID()throws SQLException,ClassNotFoundException;
 }

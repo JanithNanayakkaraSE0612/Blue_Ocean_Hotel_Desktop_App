@@ -1,5 +1,6 @@
 package lk.ijse.hotel.dao;
 
+import lk.ijse.hotel.dao.custom.impl.CustomerDAOImpl;
 import lk.ijse.hotel.dao.custom.impl.UserDAOImpl;
 
 public class DAOFactory {
@@ -12,8 +13,10 @@ public class DAOFactory {
     }
     public SuperDAO getDAOType(lk.ijse.hotel.dao.DAOType daoType){
         switch (daoType){
-            case USER:return  new UserDAOImpl();
+            case USER:
+                return  new UserDAOImpl();
             case CUSTOMER:
+                return  new CustomerDAOImpl();
             default:
                 return null;
         }
