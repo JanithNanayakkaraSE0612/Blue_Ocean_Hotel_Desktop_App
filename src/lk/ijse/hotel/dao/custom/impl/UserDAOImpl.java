@@ -2,7 +2,6 @@ package lk.ijse.hotel.dao.custom.impl;
 
 import lk.ijse.hotel.dao.custom.UserDAO;
 import lk.ijse.hotel.entity.User;
-import lk.ijse.hotel.util.FactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
